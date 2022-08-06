@@ -57,6 +57,8 @@ body {
     align-items: center;
     position: fixed;
     top: 0;
+    opacity: 0;
+    transition: 1s;
 }
 
 .her0-heading{
