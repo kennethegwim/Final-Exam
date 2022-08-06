@@ -10,7 +10,14 @@
 
 <body>
      <!--Start Nav Bar-->
-     
+     <nav class="navbar">
+        <ul class="link-group">
+            <li class="link"><a href="#">Home</a></li>
+            <li class="link"><a href="#">Project</a></li>
+            <li class="link"><a href="#">About</a></li>
+            <li class="link"><a href="#">Contact</a></li>
+        </ul>
+     </nav>
     <!--End Nav Bar-->
 
     <!--Begin Hero Header-->
@@ -143,20 +150,6 @@
     </footer>
     <!-- End Footer-->
 
-    <script>
-        window.onscroll = function () {
-            scrollFunction();
-        }
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("top-nav-bar").style.background = "black";
-            }
-            else {
-                document.getElementById("top-nav-bar").style.background = "none";
-            }
-        }
-    </script>
 
    <script src="glight.min.js"></script>
    <script type="text/javascript">
